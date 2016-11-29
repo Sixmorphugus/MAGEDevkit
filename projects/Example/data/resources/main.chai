@@ -1,0 +1,14 @@
+// main.chai
+/*
+This file is executed when your game starts up.
+It is where you'll want to register all of your resources, etcetera.
+This quick example loads a file (images/welcome.png) which is then displayed via using it as a texture for a UI object.
+*/
+
+// we can load the resource right as the game starts up:
+resources.add("ui_welcome", sfTextureResource("./images/welcome.png"));
+
+// onGameInitDone is only called once the game is ready to draw and update: i.e. once it DEFINITELY knows what you mean by "ui_welcome".
+onGameInitDone.registerObserver(fun() {
+	
+});

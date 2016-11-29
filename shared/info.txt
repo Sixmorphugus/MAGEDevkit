@@ -1,0 +1,5 @@
+Every class in here is shared between the projects in projects/ - these classes can be created in the scripting engine and registered as prefabs.
+Functions registered in here will also be available in all projects.
+This is so all the different programs that your game comes with (usually just your game and its editor) can use the same code.
+
+This is under the provision that you are using the example project format with the default $(MAGE_SHARED_SRC) left in place.
