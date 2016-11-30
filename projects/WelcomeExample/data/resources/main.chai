@@ -1,4 +1,7 @@
 // main.chai
+
+setWindowTitle("Hello, world!");
+
 /*
 This file is executed when your game starts up.
 It is where you'll want to register all of your resources, etcetera.
@@ -10,5 +13,26 @@ resources.add("ui_welcome", sfTextureResource("./images/welcome.png"));
 
 // onGameInitDone is only called once the game is ready to draw and update: i.e. once it DEFINITELY knows what you mean by "ui_welcome".
 onGameInitDone.registerObserver(fun() {
+	// create an object, attach it to the current game state
+	var welcome = uiBasic(uiCamera.getSize().x / 2, uiCamera.getSize().y / 2, 
+		textureData(resources.get_sfTextureResource("ui_welcome")));
+		
+	state.attach(welcome);
 	
+	// center the object
+	welcome.setOrigin(welcome.getSize().x / 2, welcome.getSize().y / 2);
+	
+	// show the mouse
+	mouseMode = 1;
+	
+	// that's it!
+});
+
+// Say we want to do something every time the game updates, though. We do it like this:
+onGameUpdate.registerObserver(fun() {
+	var i = 100 * abs(sin(getSimTime().asSeconds()));
+	
+	state.bgCol.r = i;
+	state.bgCol.g = i;
+	state.bgCol.b = i;
 });

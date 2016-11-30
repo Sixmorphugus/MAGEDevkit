@@ -1,0 +1,355 @@
+INFO[D:\Repos\MAGEDevkit\engine\src\platformWindows.cpp:57 (platform::init)]: Working in D:\Repos\MAGEDevkit\precompiled
+
+MAGE GAME ENGINE r409 for Windows
+Copyright Deadhand 2016.
+
+SFML v2.4.1
+CHAISCRIPT v5.8.5
+
+INITIALIZING
+------------------------------------------
+INFO[D:\Repos\MAGEDevkit\engine\src\Game.cpp:57 (Game::Game)]: STARTING SUBSYSTEMS
+	Input...
+	Audio...
+	Resources and Prefabs...
+	Group Renderers...
+	Scripting...
+	Scheduler...
+INFO[D:\Repos\MAGEDevkit\engine\src\Game.cpp:82 (Game::Game)]: Creating game world.
+
+INFO[D:\Repos\MAGEDevkit\engine\src\scriptingEngine.cpp:31 (scriptingEngine::initChai)]: Initializing scripting engine.
+	Load precompiled chai libraries...
+	Bind base...
+	Bind SFML...
+	Bind Engine...
+	Bind Hooks...
+	Bind custom datatypes...
+	Replace some default functions...
+	Finito!
+INFO[D:\Repos\MAGEDevkit\engine\src\Game.cpp:104 (Game::Game)]: Loading settings
+INFO[D:\Repos\MAGEDevkit\engine\src\Game.cpp:554 (Game::setAudioSettings)]: Audio settings:
+	master volume: 100.000000
+	sfx volume: 100.000000
+	music volume: 100.000000
+INFO[D:\Repos\MAGEDevkit\engine\src\Game.cpp:507 (Game::setWindowSettings)]: Window settings:
+	resolution: 1080x720
+	title: MAGE Game Engine (r409)
+	fullscreen: NO
+	vsync: NO
+	fpslimit: 0fps
+INFO[D:\Repos\MAGEDevkit\engine\src\Game.cpp:520 (Game::setWindowSettings)]: Saving window config.
+INFO[D:\Repos\MAGEDevkit\engine\src\Game.cpp:116 (Game::Game)]: Loading keybinds
+INFO[D:\Repos\MAGEDevkit\engine\src\Game.cpp:133 (Game::Game)]: No valid launch args
+
+DONE!
+
+READY TO START
+------------------------------------------
+INFO[D:\Repos\MAGEDevkit\engine\src\Game.cpp:385 (Game::run)]: Loading resources
+INFO[D:\Repos\MAGEDevkit\engine\src\Game.cpp:186 (Game::loadResources)]: Creating variable registry...
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:100 (resourceMngr::add)]: Loading resource "sfx_begin".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\sfx\enterBattle.wav
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:100 (resourceMngr::add)]: Loading resource "sfx_explosion".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\sfx\Explosion2.wav
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:100 (resourceMngr::add)]: Loading resource "sfx_dlgDefault".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\sfx\talk_info.wav
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:100 (resourceMngr::add)]: Loading resource "sfx_damage".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\sfx\damage.wav
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:100 (resourceMngr::add)]: Loading resource "sfx_menuopen".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\sfx\menuopen.wav
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:100 (resourceMngr::add)]: Loading resource "sfx_menuclose".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\sfx\menuclose.wav
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:100 (resourceMngr::add)]: Loading resource "sfx_menuselect".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\sfx\menuselect.wav
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:100 (resourceMngr::add)]: Loading resource "sfx_menuchoose".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\sfx\menuchoose.wav
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:100 (resourceMngr::add)]: Loading resource "sfx_menuback".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\sfx\menuback.wav
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:100 (resourceMngr::add)]: Loading resource "__fontDef".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\text\PIXEARG_.TTF
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:100 (resourceMngr::add)]: Loading resource "__splash".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\splash.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:100 (resourceMngr::add)]: Loading resource "main".
+INFO[D:\Repos\MAGEDevkit\engine\src\scriptingEngine.cpp:102 (scriptingEngine::evalFile)]: Executing D:\Repos\MAGEDevkit\precompiled\resources\main.chai
+INFO[D:\Repos\MAGEDevkit\engine\src\Game.cpp:507 (Game::setWindowSettings)]: Window settings:
+	resolution: 1080x720
+	title: Hello, world!
+	fullscreen: NO
+	vsync: NO
+	fpslimit: 0fps
+INFO[D:\Repos\MAGEDevkit\engine\src\Game.cpp:520 (Game::setWindowSettings)]: Saving window config.
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyF13".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyF13.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyB".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyB.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_key8".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\key8.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyX".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyX.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyEscape".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyEscape.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyComma".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyComma.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_notfound".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\nosprite.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyQ".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyQ.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyF3".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyF3.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyDelete".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyDelete.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_key6".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\key6.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyF9".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyF9.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "mouse".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\mouse.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_title".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\title2.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_title_small".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\title.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyR".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyR.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_info_image".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\infoimage.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyF14".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyF14.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_block_base".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\block\base.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyE".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyE.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_buttons".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\buttons.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_ctrl_dpad".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\ctrl_dpad.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyMultiply".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyMultiply.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_key0".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\key0.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_key1".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\key1.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_key2".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\key2.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_key3".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\key3.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_key4".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\key4.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_key5".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\key5.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_key7".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\key7.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyAlt".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyAlt.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_key9".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\key9.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyF10".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyF10.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyA".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyA.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyAdd".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyAdd.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "interactiveObject".
+	Fragment Shader: D:\Repos\MAGEDevkit\precompiled\base\shaders\outline.glsl
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyQuote".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyQuote.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyBackSlash".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyBackSlash.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyBackspace".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyBackspace.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyLeft".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyLeft.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyF12".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyF12.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyC".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyC.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyCtrl".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyCtrl.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyF15".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyF15.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyD".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyD.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyDash".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyDash.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyESC".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyESC.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyDevide".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyDevide.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyT".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyT.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyF6".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyF6.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyDown".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyDown.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyEnd".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyEnd.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyP".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyP.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyEqual".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyEqual.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyF2".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyF2.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyF".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyF.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyS".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyS.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyLSystemWin".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyLSystemWin.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyF1".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyF1.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyF11".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyF11.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyV".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyV.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyF4".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyF4.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyW".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyW.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyF5".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyF5.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyU".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyU.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyHome".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyHome.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyF7".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyF7.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyZ".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyZ.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyF8".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyF8.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyFunc".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyFunc.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyFunc1".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyFunc1.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyFunc10".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyFunc10.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyFunc11".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyFunc11.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyFunc12".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyFunc12.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyFunc13".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyFunc13.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyFunc14".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyFunc14.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyFunc15".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyFunc15.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyFunc2".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyFunc2.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyFunc3".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyFunc3.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyFunc4".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyFunc4.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyFunc5".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyFunc5.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyFunc6".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyFunc6.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyFunc7".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyFunc7.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyFunc8".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyFunc8.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyFunc9".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyFunc9.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyG".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyG.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyH".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyH.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyI".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyI.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyInsert".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyInsert.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyJ".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyJ.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyK".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyK.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyL".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyL.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyLAlt".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyLAlt.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyLBracket".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyLBracket.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyLControl".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyLControl.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyLShift".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyLShift.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyLSystemPOSIX".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyLSystemPOSIX.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyM".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyM.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyN".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyN.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyNum0".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyNum0.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyNum1".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyNum1.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyNum2".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyNum2.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyNum3".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyNum3.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyNum4".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyNum4.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyNum5".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyNum5.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyNum6".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyNum6.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyNum7".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyNum7.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyPgUp".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyPgUp.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyNum8".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyNum8.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyNum9".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyNum9.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyO".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyO.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyPageDown".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyPageDown.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyPageUp".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyPageUp.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyPeriod".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyPeriod.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyPgDown".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyPgDown.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyReturn".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyReturn.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyRBracket".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyRBracket.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyRight".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyRight.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keySemiColon".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keySemiColon.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyShift - Copy".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyShift - Copy.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyShift".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyShift.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keySlash".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keySlash.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keySpace".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keySpace.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keySqrBrktLeft".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keySqrBrktLeft.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keySqrBrktRight".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keySqrBrktRight.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keySys2".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keySys2.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keySysPOSIX".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keySysPOSIX.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keySysWin".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keySysWin.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyT - Copy".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyT - Copy.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyTAB".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyTAB.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyTilde".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyTilde.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyUnknown".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyUnknown.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyUp - Copy".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyUp - Copy.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyUp".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyUp.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_input_keyY".
+	Path: D:\Repos\MAGEDevkit\precompiled\base\ui\bindimages\keyY.png
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "desaturation".
+	Fragment Shader: D:\Repos\MAGEDevkit\precompiled\base\shaders\grayscale.glsl
+INFO[D:\Repos\MAGEDevkit\engine\src\resources.cpp:124 (resourceMngr::update)]: Loading resource "ui_welcome".
+	Path: D:\Repos\MAGEDevkit\precompiled\resources\images\welcome.png
+> quit()

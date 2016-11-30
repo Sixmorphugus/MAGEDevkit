@@ -1,0 +1,5 @@
+Projects is where you put all your different applications - in most cases, just the Editor and your Game.
+Projects and their data all output to the same dir unless you change it by changing the Cmake output dir (if you have multiple games sharing shared files, you'll want to do that before calling DECLARE_MAGEPROJECT)
+
+The editor, by default, just ends up in the default bin folder with your game. Considering how the editor works, that is the best place for it to be.
+Note that the editor will be a little buggy for a while.
