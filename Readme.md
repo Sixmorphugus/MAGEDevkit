@@ -1,3 +1,5 @@
+**WARNING: This repository contains submodules. When cloning, make sure to use git clone --recursive! You will be reminded of this message by CMake if the engine folder is empty.**
+
 #Multiplatform Arcade Game Engine Devkit
 ![Imgur](http://i.imgur.com/Qf707M2.png)
 
