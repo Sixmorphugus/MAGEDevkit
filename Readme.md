@@ -1,4 +1,4 @@
-#Multiplatform Arcade Game Engine
+#Multiplatform Arcade Game Engine Devkit
 ![Imgur](http://i.imgur.com/Qf707M2.png)
 
 Unfinished SFML-based game engine with:
@@ -13,14 +13,17 @@ Unfinished SFML-based game engine with:
 - Scheduling and tweening
 - Resource management
 
-#Ish good, ja!
-You can easily compile the engine with CMake (https://cmake.org/). If you're going to make a game with it, however:
-- Wait for me to actually finish and document the engine.
-- Use the MAGEDevkit (https://github.com/Sixmorphugus/MAGEDevkit) which includes a cool level editor and example project already written in for you.
+#Using This
+MAGEDevkit does most everything for you so you can use the engine faster and quicker.
+CMakeLists files are full of comments and information.
+No need to mess around trying to bind MAGE and SFML to a project - this is done for you, and they're compiled on any system for you too!
+
+#The Editor
+The editor is only available if the required libraries are available:
+- WxWidgets (Cmake must be able to find it somewhere and the version must be compatible with your build settings)
+- GTK (linux only)
+- X11 (linux only, and if you have linux it's probably already on your computer)
 
 #Using MAGE on its own
-- If you want to use MAGE on its own you need to compile it.
-- Cmake the project anywhere you want and then compile the versions you need - most likley Debug and Release.
-- Import the MAGE library into your IDE the usual way.
-- MAKE SURE TO ALSO IMPORT /MAGE'S COPY/ OF THE SFML LIBRARY - includes are in extlibs/SFML/include, and libs are in the bin dir next to MAGE.dll.
+- See https://github.com/Sixmorphugus/MAGE
 - Honestly, MAGEDevkit is quite a bit easier...
